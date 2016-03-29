@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# cookiecutter-django documentation build configuration file.
+# cookiecutter-django-dc documentation build configuration file.
 #
 # This file is execfile()d with the current directory set to its containing dir.
 #
@@ -43,8 +43,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'cookiecutter-django'
-copyright = u"2013-{}, Daniel Roy Greenfeld".format(now.year)
+project = u'cookiecutter-django-dc'
+copyright = u"2016-{}, Jon Miller".format(now.year)
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -167,7 +167,7 @@ html_static_path = ['_static']
 # html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'cookiecutter-djangodoc'
+htmlhelp_basename = 'cookiecutter-django-dcdoc'
 
 
 # -- Options for LaTeX output --------------------------------------------------
@@ -187,9 +187,9 @@ latex_elements = {
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
     ('index',
-     'cookiecutter-django.tex',
-     u'cookiecutter-django Documentation',
-     u"cookiecutter-django", 'manual'),
+     'cookiecutter-django-dc.tex',
+     u'cookiecutter-django-dc Documentation',
+     u"cookiecutter-django-dc", 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -218,8 +218,8 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'cookiecutter-django', u'cookiecutter-django documentation',
-     [u"Daniel Roy Greenfeld"], 1)
+    ('index', 'cookiecutter-django-dc', u'cookiecutter-django-dc documentation',
+     [u"Jon Miller"], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -232,9 +232,9 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    ('index', 'cookiecutter-django', u'cookiecutter-django documentation',
-     u"Daniel Roy Greenfeld", 'cookiecutter-django',
-     'A Cookiecutter template for creating production-ready Django projects quickly.', 'Miscellaneous'),
+    ('index', 'cookiecutter-django-dc', u'cookiecutter-django-dc documentation',
+     u"Jon Miller", 'cookiecutter-django-dc',
+     'A Cookiecutter template for creating offline production-ready Django projects quickly.', 'Miscellaneous'),
 ]
 
 # Documents to append as an appendix to all manuals.

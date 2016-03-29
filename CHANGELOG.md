@@ -1,6 +1,14 @@
 # Change Log
-All enhancements and patches to cookiecutter-django will be documented in this file.
+All enhancements and patches to cookiecutter-django-dc will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
+
+### [2016-03-29]
+### Changed
+- Forked cookiecutter-django to make cookiecutter-django-dc(@jondelmil).
+- Remove Markdown-formatted links in READMEs (keep some URLs in parens).
+- Add concourse-ci-pipeline.yml for pipeline in code.
+- Remove references to any Python < 3.5.
+- Replace AngularJS with ReactJS.
 
 ### [2016-03-23]
 ### Changed

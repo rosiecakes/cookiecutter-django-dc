@@ -1,9 +1,9 @@
-.. cookiecutter-django documentation master file.
+.. cookiecutter-django-dc documentation master file.
 
-Welcome to cookiecutter-django's documentation!
+Welcome to cookiecutter-django-dc's documentation!
 ====================================================================
 
-A Cookiecutter_ template for Django.
+A Cookiecutter_ template for offline Django.
 
 .. _cookiecutter: https://github.com/audreyr/cookiecutter
 
@@ -21,7 +21,6 @@ Contents:
    settings
    linters
    live-reloading-and-sass-compilation
-   deployment-on-heroku
    deployment-with-docker
    faq
 
