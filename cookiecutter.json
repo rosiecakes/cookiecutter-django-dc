@@ -1,16 +1,34 @@
 {
     "project_name": "project_name",
-    "repo_name": "{{ cookiecutter.project_name|replace(' ', '_')|replace('-', '_') }}",
+    "repo_name": "{{ cookiecutter.project_name.lower()|replace(' ', '_')|replace('-', '_') }}",
     "author_name": "Your Name",
     "email": "Your email",
     "description": "A short description of the project.",
     "domain_name": "example.com",
     "version": "0.1.0",
     "timezone": "UTC",
+<<<<<<< HEAD
     "now": "2016/03/30",
+=======
+    "now": "{% now 'local' %}",
+>>>>>>> f4cf5df53e57acb338ee9c9aca24d58709dbcfb7
     "year": "{{ cookiecutter.now[:4] }}",
     "use_celery": "n",
+<<<<<<< HEAD
     "use_redis": "n",
     "windows": "n",
+=======
+    "use_mailhog": "n",
+    "use_sentry": "n",
+    "use_newrelic": "n",
+    "use_opbeat": "n",
+    "use_pycharm": "n",
+    "windows": "n",
+    "use_python2": "n",
+    "use_docker": "y",
+    "use_heroku": "n",
+    "use_grunt": "n",
+    "use_angular": "n",
+>>>>>>> f4cf5df53e57acb338ee9c9aca24d58709dbcfb7
     "open_source_license": ["MIT", "BSD", "Not open source"]
 }

@@ -1,4 +1,5 @@
 # Change Log
+<<<<<<< HEAD
 All enhancements and patches to cookiecutter-django-dc will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
@@ -9,6 +10,57 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - Add concourse-ci-pipeline.yml for pipeline in code.
 - Remove references to any Python < 3.5.
 - Replace AngularJS with ReactJS.
+=======
+All enhancements and patches to Cookiecutter Django will be documented in this file.
+This project adheres to [Semantic Versioning](http://semver.org/).
+
+### [2016-04-19]
+### Added
+- "Got Questions?" section in our README.rst. Yes, there is now a cookiecutter-django tag on Stack Overflow! (@pydanny)
+
+### Changed
+- Update usage instructions with new prompts, minor cleanup (@audreyr)
+
+### [2016-04-18]
+### Added
+- removing duplication of depends_on in docker-compose.yml (@noisy)
+
+### [2016-04-17]
+### Added
+- "Built with Cookiecutter Django" badge to generated project README (@audreyr)
+- New introductory article (@krzysztofzuraw)
+
+### Changed
+- Quote consistency, single quotes everywhere! (@blopker)
+
+### [2016-04-15]
+### Changed
+- Major project generation cleanup (@jayfk)
+
+### Removed
+- Deleting unnecessary .idea dir from MAIN directory (@noisy)
+
+### [2016-04-14]
+### Added
+- Added typecheck in .pylintrc to fix pylint-django gets "no-member" error (@solvire)
+
+### Changed
+- Downgrading python-dateutil to version 2.4.2 because pykwalify==1.5.0 (required by HitchTest) uses a [pinned version of python-dateutil](https://github.com/Grokzen/pykwalify/blob/1.5.0/setup.py#L31) (@noisy)
+- Update Pillow version to 3.2.0 (security fix) (@luzfcb)
+
+### [2016-04-12]
+### Changed
+- celeryworker and celerybeat missing the correct dockerfile (@jayfk)
+
+### [2016-04-08]
+### Changed
+- Move to named docker volumes (@jayfk)
+
+### [2016-04-07]
+### Changed
+- Pycharm Support (including debugging in Docker) @noisy
+- Set the correct License @epileptic-fish
+>>>>>>> f4cf5df53e57acb338ee9c9aca24d58709dbcfb7
 
 ### [2016-03-23]
 ### Changed

@@ -52,6 +52,7 @@ Listed in alphabetical order.
   Barclay Gauld            `@yunti`_
   Ben Lopatin
   Benjamin Abel
+  Bo Lopker                `@blopker`_
   Bouke Haarsma
   Burhan Khalid            `@burhan`_                   @burhan
   Catherine Devlin         `@catherinedevlin`_
@@ -64,7 +65,8 @@ Listed in alphabetical order.
   Cullen Rhodes            `@c-rhodes`_
   Daniele Tricoli          `@eriol`_
   David Díaz               `@ddiazpinto`_                @DavidDiazPinto
-  Davur Clementsen         `@dsclementsen`_             @davur
+  Davur Clementsen         `@dsclementsen`_              @davur
+  Dónal Adams              `@epileptic-fish`_
   Eraldo Energy            `@eraldo`_
   Eyad Al Sibai            `@eyadsibai`_
   Felipe Arruda            `@arruda`_
@@ -79,6 +81,8 @@ Listed in alphabetical order.
   Kaveh                    `@ka7eh`_
   Kevin A. Stone
   Kevin Ndung'u            `@kevgathuku`_
+  Krzysztof Szumny         `@noisy`_
+  Krzysztof Żuraw          `@krzysztofzuraw`_
   Lin Xianyi               `@iynaix`_
   Luis Nell                `@originell`_
   Lukas Klein
@@ -123,6 +127,8 @@ Listed in alphabetical order.
 .. _@ChrisPappalardo: https://github.com/ChrisPappalardo
 .. _@Collederas: https://github.com/Collederas
 .. _@ddiazpinto: https://github.com/ddiazpinto
+.. _@dsclementsen: https://github.com/dsclementsen
+.. _@epileptic-fish: https://gihub.com/epileptic-fish
 .. _@eraldo: https://github.com/eraldo
 .. _@eriol: https://github.com/eriol
 .. _@eyadsibai: https://github.com/eyadsibai
@@ -155,7 +161,7 @@ Listed in alphabetical order.
 .. _@Travistock: https://github.com/Tavistock
 .. _@yunti: https://github.com/yunti
 .. _@zcho: https://github.com/zcho
-
+.. _@noisy: https://github.com/noisy
 Special Thanks
 ~~~~~~~~~~~~~~
 
